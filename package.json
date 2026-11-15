@@ -1,0 +1,36 @@
+{
+  "name": "@transmitly/react-email",
+  "version": "1.0.0",
+  "description": "Render React Email components and send them with Transmitly",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@react-email/render": "^1.1.0"
+  },
+  "devDependencies": {
+    "react": "^19.0.0"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Transmitly-io/sdk-node.git"
+  }
+}
