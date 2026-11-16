@@ -14,7 +14,8 @@
   "files": [
     "index.js",
     "index.d.ts",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=18"
@@ -31,6 +32,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Transmitly-io/sdk-node.git"
+    "url": "https://github.com/Transmitly-io/react-email.git"
+  },
+  "homepage": "https://transmitly.io/docs/sdks",
+  "bugs": {
+    "url": "https://github.com/Transmitly-io/react-email/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
