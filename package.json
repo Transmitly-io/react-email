@@ -1,6 +1,6 @@
 {
   "name": "@transmitly/react-email",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render React Email components and send them with Transmitly",
   "type": "module",
   "main": "./index.js",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Transmitly-io/react-email.git"
+    "url": "git+https://github.com/Transmitly-io/react-email.git"
   },
   "homepage": "https://transmitly.io/docs/sdks",
   "bugs": {
